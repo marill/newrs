@@ -1,0 +1,15 @@
+@import "compass/css3";
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: green;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+	 @include text-shadow(rgba(blue, 0.2) 1px 1px 0, rgba(blue, 0.2) 2px 2px 0, rgba(blue, 0.2) 3px 3px 0);
+}

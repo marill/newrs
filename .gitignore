@@ -6,3 +6,5 @@ public/stylesheets/css
 
 # This is built by Webpack
 public/javascripts/bundle.js 
+
+public/.sass-cache

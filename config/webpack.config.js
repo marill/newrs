@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var path = require('path')
 module.exports = {
   devtool: 'inline-source-map',
-  entry: ['./client/client.js', 'webpack-hot-middleware/client'],
+  entry: ['./frontend/client.js', 'webpack-hot-middleware/client'],
   output: {
     path: path.join(__dirname, './public/javascripts'),
     filename: 'bundle.js',
